@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Protest+Revolution&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fredoka:wght@300..700&family=Protest+Revolution&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+/*   font-family: "Fira Sans", sans-serif; font-family: "Protest Revolution", sans-serif;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ---------------------- Header section related CSS ------------------------*/
+header {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.container.display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo h2 {
+  color: #001f3f;
+  font-family: "Protest Revolution", sans-serif;
+}
+
+.btn {
+  padding: 10px;
+  width: 120px;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.post {
+  background-color: #001f3f;
+  margin-right: 12px;
+  color: #fff;
+}
+
+/* ----------------------- Hero Section related CSS -----------------------  */
+.heroSection {
+  background-image: linear-gradient(
+      rgba(36, 42, 46, 0.7),
+      rgba(36, 42, 46, 0.7)
+    ),
+    url("hero-img.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 78px;
+}
+
+.heroSection h1 {
+  font-size: 60px;
+  color: #fff;
+  font-family: "Protest Revolution", sans-serif;
+  letter-spacing: 8px;
+  margin-bottom: 14px;
+}
+
+.heroSection h4 {
+  color: #fff;
+  font-size: 28px;
+  letter-spacing: 5px;
+}
+
+/* ---------------------- Main Section related CSS ------------------------ */
+.main {
+  margin-bottom: 80px;
+}
+
+.filterAndSearchSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.filters {
+  width: 70%;
+}
+
+.filters button {
+  padding: 10px 18px;
+  margin-right: 20px;
+  border: 1px solid #444444;
+  outline: none;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.filterAndSearchSection input {
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #444444;
+  font-weight: 600;
+  width: 30%;
+}
+
+/* ------------------ Blogs Section related CSS ------------------------- */
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-top: 50px;
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.title {
+  margin: 16px 0px;
+}
+
+.blogWriterInfoAndReadmore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0px 0px 0px;
+}
+
+.blogWriterInfoAndReadmore a:link {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.writerInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.writerInfo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.writerInfo i {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+/* ------------------------ Login Section related CSS ------------------------ */
+
+.loginSection {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding: 20px;
+}
+
+.loginSection h2 {
+  text-align: center;
+}
+
+.loginSection form {
+  margin: 30px 0px 0px 0px;
+}
+
+.loginSection input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid #444444;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+/* .loginSection button {
+  display: block;
+  margin: 0 auto;
+} */
+
+/* -------------------- Footer Section related CSS ------------------------- */
+footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  /* margin-top: 30px; */
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  font-weight: 600;
+  font-family: "Protest Revolution", sans-serif;
+  letter-spacing: 3px;
+}
+
+/* ------------------------ CommentForm related CSS ------------------------- */
+.commentForm input,
+.commentForm textarea {
+  width: 100%;
+  outline: none;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.commentForm input {
+  padding: 10px;
+}
+
+/* ---------------------- AddNewPost form related CSS --------------------- */
+.addNewPost {
+  width: 800px;
+  margin: 83px auto;
+}
+
+.addNewPost input,
+.addNewPost select {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #444444;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.addNewPost textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid #444444;
+  border-radius: 5px;
+}
+
+/* ---------------------- Individual Blog Post related CSS ----------------------- */
+.blogInfo {
+  width: 800px;
+  margin: 90px auto;
+}
+
+.blog-img {
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
+}
+
+.blog-title {
+  margin: 20px 0px;
+}
+
+.post-content {
+  margin: 20px 0px;
+}
+
+.likesCommentsAndOperations,
+.addcomment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likesCommentsAndOperations a:link {
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.likesCommentsAndOperations span {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.addCommentBtn {
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  background-color: #4b96db;
+  color: #fff;
+}
+
+.comments {
+  margin-top: 40px;
+  background-color: #f4eeed;
+  padding: 15px;
+}
+
+.comment {
+  margin: 20px 0px;
+  border-bottom: 1px solid lightblue;
+}
+
+.comment span {
+  background-color: grey;
+  color: #fff;
+  margin-right: 5px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.comment p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.disable {
+  pointer-events: none;
+}

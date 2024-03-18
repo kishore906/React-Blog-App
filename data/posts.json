@@ -1,0 +1,171 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Future Of Web Development",
+      "authorName": "John Smith",
+      "post": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "date": "2023-03-24",
+      "image": "web.jpg",
+      "likes": 15,
+      "comments": [
+        {
+          "name": "Ian Smith",
+          "comment": "Interesting post good to know about the future technologies that changes web development"
+        },
+        {
+          "name": "Ravi Varma",
+          "comment": "Interesting post good to know about the technologies that changes how web applications will be developed👍"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Advanced Tools for becoming a better Data Analyst",
+      "authorName": "Garey Christan",
+      "post": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "date": "2023-06-15",
+      "image": "dataanalysis.jpg",
+      "likes": 15,
+      "comments": [
+        {
+          "name": "Ian Smith",
+          "comment": "Interesting post good to know about the diferent tools"
+        },
+        {
+          "name": "Ravi Varma",
+          "comment": "Interesting post good to know about different tools which will help in becoming a better data analyst👍"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Future Of Data Science",
+      "authorName": "Mitchel Smith",
+      "post": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "date": "2023-07-13",
+      "image": "datascience.jpg",
+      "likes": 14,
+      "comments": [
+        {
+          "name": "Ian Smith",
+          "comment": "Interesting post good to know about the future of data science career"
+        },
+        {
+          "name": "Ravi Varma",
+          "comment": "Interesting post good to know about how data science has impact in every day life👍"
+        },
+        {
+          "name": "Micheal Marsh",
+          "comment": "Interesting post got to know about future of data science"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Future Of AI",
+      "authorName": "Mitchel Smith",
+      "post": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "date": "2023-04-11",
+      "image": "ai.jpg",
+      "likes": 14,
+      "comments": [
+        {
+          "name": "Ian Smith",
+          "comment": "Interesting post good to know about the future of Artificial Intelligence(AI)"
+        },
+        {
+          "name": "Ravi Varma",
+          "comment": "Interesting post good to know about how data science has impact in every day life👍"
+        },
+        {
+          "name": "John Smith",
+          "comment": "blowed by the impact that will be created by AI"
+        }
+      ]
+    },
+    {
+      "authorName": "Raj Vikram",
+      "title": "JavaScript shorcuts",
+      "date": "2024-02-16",
+      "post": "There are many javascript shorcuts using array and string methods like split, slice, join and indexOf",
+      "image": "js.jpg",
+      "likes": 2,
+      "comments": [
+        {
+          "name": "Alex Smith",
+          "comment": "Shortcuts are very useful keep up the good work."
+        },
+        {
+          "name": "Raj",
+          "comment": "useful information keep up the good work"
+        },
+        {
+          "name": "Rahul",
+          "comment": "useful info"
+        },
+        {
+          "name": "Manoj",
+          "comment": "Nice information will save lot of time while using these methods."
+        },
+        {
+          "name": "Raj",
+          "comment": "Nice"
+        },
+        {
+          "name": "Alex Smith",
+          "comment": "useful one"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "authorName": "Raj Aditya",
+      "title": "Typescript Fundamentals",
+      "date": "2024-02-12",
+      "post": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "image": "typescript.png",
+      "likes": 1,
+      "comments": [
+        {
+          "name": "Rahul",
+          "comment": "Useful information on how to start learning typescript fundamentals initially. "
+        },
+        {
+          "name": "John Smith",
+          "comment": "Valuable post "
+        }
+      ],
+      "id": 6
+    },
+    {
+      "authorName": "Vaishnav Ram",
+      "title": "JavaScript Shortcuts with advanced methods",
+      "date": "2024-02-01",
+      "post": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "image": "js.jpg",
+      "likes": 1,
+      "comments": [],
+      "id": 7
+    },
+    {
+      "authorName": "Rahul Tej Sharma",
+      "title": "React Snippets and Advanced Optimization Techniques",
+      "date": "2024-02-16",
+      "post": "This blog has react snippets which will save your time while developing react applications and I also included advanced optimization techniques and useful resources that will help to build optimized react apps",
+      "image": "react.jpg",
+      "likes": 1,
+      "comments": [
+        {
+          "name": "John Smith",
+          "comment": "Useful snippets keep up the good work"
+        },
+        {
+          "name": "Micheal Marsh",
+          "comment": "Useful snippets for beginners"
+        }
+      ],
+      "id": 8
+    }
+  ]
+}
